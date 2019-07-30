@@ -1,0 +1,33 @@
+.card {
+    display: inline-block;
+    border: none;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+.flip-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rear-card {
+    width: 150px;
+    height: auto;
+}
+
+.properties {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#target {
+    width: 20px;
+    height: auto;
+}

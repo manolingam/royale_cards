@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.title {
+  color: blueviolet;
+}
+
+.card-flip {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+      font-size: 1.1em;
+  }
+}
