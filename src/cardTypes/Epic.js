@@ -23,22 +23,20 @@ class Epic extends Component {
 		return(
 			<div className="card">
 				<ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal">
-					<div key="front" className='bg-light-purple dib br3 pa2 ma3 grow bw2 shadow-2 flip-card' onClick={this.handleClick}>
+					<div key="front" className='bg-light-purple dib br3 pa2 ma3 grow bw2 shadow-2' onClick={this.handleClick}>
+						<img alt='cards' src={`${this.props.epic.iconUrls.medium}`}/>
 						<div className='tc'>
-							<img alt='cards' src={`${this.props.epic.iconUrls.medium}`}/>
-							<div className='tc'>
-								<p className="f4 purple">{this.props.epic.name}</p>
-							</div>
+							<p className="f4 purple">{this.props.epic.name}</p>
 						</div>
 					</div>                           
 											
-					<div key="back" className='bg-white dib br3 pa3 ma3 grow bw2 shadow-2 flip-card' onClick={this.handleClick}>
+					<div key="back" className='bg-white dib br3 pa2 ma3 grow bw2 shadow-2' onClick={this.handleClick}>
 						<div className='tc'>
-							<img alt='cards' className="rear-card" src={`${this.props.epic.iconUrls.medium}`}/><br></br>
+							<p className='f7 purple tc desc'>{this.props.epic.desc}</p>
 							<div className='properties'>
 								<img id="target" src={target} alt="target"></img>
 								<p className='f6 purple mt3 ml1 tc'>{this.props.epic.targets}</p>
-								<img id='target' className="ml2" src={elixir} alt="elixir"></img>
+								<img id='target' className='ml2' src={elixir} alt="elixir"></img>
 								<p className='f6 purple mt3 ml1'>{this.props.epic.elixir}</p>
 							</div>
 						</div>

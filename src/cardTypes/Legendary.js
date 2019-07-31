@@ -32,7 +32,7 @@ class Legendary extends Component {
 											
 					<div key="back" className='bg-white dib br3 pa2 ma3 grow bw2 shadow-2' onClick={this.handleClick}>
 						<div className='tc'>
-							<img alt='cards' src={`${this.props.legendary.iconUrls.medium}`}/><br></br>
+							<p className='f6 purple tc desc'>{this.props.legendary.desc}</p>
 							<div className='properties'>
 								<img id="target" src={target} alt="target"></img>
 								<p className='f6 purple mt3 ml1 tc'>{this.props.legendary.targets}</p>

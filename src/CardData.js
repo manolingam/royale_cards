@@ -1,6 +1,7 @@
 var items = [
       {
         "name": "Knight",
+        'desc':"A tough melee fighter. The Barbarian's handsome, cultured cousin. Rumor has it that he was knighted based on the sheer awesomeness of his mustache alone.",
         "cardType":"Common",
         "id": 26000000,
         "targets":"Ground",
@@ -12,6 +13,7 @@ var items = [
       },
       {
         "name": "Archers",
+        "desc":"A pair of lightly armored ranged attackers. They'll help you take down ground and air units, but you're on your own with hair coloring advice.",
         "cardType":"Common",
         "targets":"Air & Ground",
         "elixir": 3,
@@ -23,6 +25,7 @@ var items = [
       },
       {
         "name": "Goblins",
+        "desc":"Three fast, unarmored melee attackers. Small, fast, green and mean!",
         "cardType":"Common",
         "targets":"Ground",
         "elixir": 2,
@@ -35,6 +38,7 @@ var items = [
       {
         "name": "Giant",
         "cardType":"Rare",
+        "desc":"Slow but durable, only attacks buildings. A real one-man wrecking crew!",
         "targets":"Buildings",
         "elixir": 5,
         "id": 26000003,
@@ -45,6 +49,7 @@ var items = [
       },
       {
         "name": "P.E.K.K.A",
+        "desc":"A heavily armored, slow melee fighter. Swings from the hip, but packs a huge punch.",
         "cardType":"Epic",
         "targets":"Ground",
         "elixir": 7,
@@ -56,6 +61,7 @@ var items = [
       },
       {
         "name": "Minions",
+        "desc":"Three fast, unarmored flying attackers. Roses are red, minions are blue, they can fly, and will crush you!",
         "cardType":"Common",
         "targets":"Air & Ground",
         "elixir": 3,
@@ -67,6 +73,7 @@ var items = [
       },
       {
         "name": "Balloon",
+        "desc":"As pretty as they are, you won't want a parade of THESE balloons showing up on the horizon. Drops powerful bombs and when shot down, crashes dealing area damage.",
         "cardType":"Epic",
         "targets":"Buildings",
         "elixir": 5,
@@ -78,6 +85,7 @@ var items = [
       },
       {
         "name": "Witch",
+        "desc":"Summons Skeletons, shoots destructo beams, has glowing pink eyes that unfortunately don't shoot lasers. Spawns 3 Skeletons when destroyed.",
         "cardType":"Epic",
         "targets":"Air & Ground",
         "elixir": 5,
@@ -89,6 +97,7 @@ var items = [
       },
       {
         "name": "Barbarians",
+        "desc":"A horde of melee attackers with mean mustaches and even meaner tempers.",
         "cardType":"Common",
         "targets":"Ground",
         "elixir": 5,
@@ -100,6 +109,7 @@ var items = [
       },
       {
         "name": "Golem",
+        "desc":"Slow but durable, only attacks buildings. When destroyed, explosively splits into two Golemites and deals area damage!",
         "cardType":"Epic",
         "targets":"Buildings",
         "elixir": 8,
@@ -111,6 +121,7 @@ var items = [
       },
       {
         "name": "Skeletons",
+        "desc":"Three fast, very weak melee fighters. Surround your enemies with this pile of bones!",
         "cardType":"Common",
         "targets":"Ground",
         "elixir": 1,
@@ -122,6 +133,7 @@ var items = [
       },
       {
         "name": "Valkyrie",
+        "desc":"Tough melee fighter, deals area damage around her. Swarm or horde, no problem! She can take them all out with a few spins.",
         "cardType":"Rare",
         "targets":"Ground",
         "elixir": 4,
@@ -133,6 +145,7 @@ var items = [
       },
       {
         "name": "Skeleton Army",
+        "desc":"Spawns an army of Skeletons. Meet Larry and his friends Harry, Gerry, Terry, Mary, etc.",
         "cardType":"Epic",
         "targets":"Ground",
         "elixir": 3,
@@ -144,6 +157,7 @@ var items = [
       },
       {
         "name": "Bomber",
+        "desc":"Small, lightly protected skeleton who throws bombs. Deals area damage that can wipe out a swarm of enemies",
         "cardType":"Common",
         "targets":"Ground",
         "elixir": 3,
@@ -155,6 +169,7 @@ var items = [
       },
       {
         "name": "Musketeer",
+        "desc":"Don't be fooled by her delicately coiffed hair, the Musketeer is a mean shot with her trusty boomstick.",
         "cardType":"Rare",
         "targets":"Air & Ground",
         "elixir": 4,
@@ -166,6 +181,7 @@ var items = [
       },
       {
         "name": "Baby Dragon",
+        "desc":"Burps fireballs from the sky that deal area damage. Baby dragons hatch cute, hungry and ready for a barbeque.",
         "targets":"Air & Ground",
         "cardType":"Epic",
         "elixir": 4,
@@ -177,6 +193,7 @@ var items = [
       },
       {
         "name": "Prince",
+        "desc":"Don't let the little pony fool you. Once the Prince gets a running start, you WILL be trampled. Deals double damage once he gets charging.",
         "cardType":"Epic",
         "targets":"Ground",
         "elixir": 5,
@@ -188,6 +205,7 @@ var items = [
       },
       {
         "name": "Wizard",
+        "desc":"The most awesome man to ever set foot in the Arena, the Wizard will blow you away with his handsomeness... and/or fireballs.",
         "cardType":"Rare",
         "targets":"Air & Ground",
         "elixir": 5,
@@ -199,6 +217,7 @@ var items = [
       },
       {
         "name": "Mini P.E.K.K.A",
+        "desc":"The Arena is a certified butterfly-free zone. No distractions for P.E.K.K.A, only destruction.",
         "cardType":"Rare",
         "targets":"Ground",
         "elixir": 4,
@@ -210,6 +229,7 @@ var items = [
       },
       {
         "name": "Spear Goblins",
+        "desc":"Three unarmored ranged attackers. Who the heck taught these guys to throw spears!? Who thought that was a good idea?!",
         "cardType":"Common",
         "targets":"Air & Ground",
         "elixir": 2,
@@ -221,6 +241,7 @@ var items = [
       },
       {
         "name": "Giant Skeleton",
+        "desc":"The bigger the skeleton, the bigger the bomb. Carries a bomb that blows up when the Giant Skeleton dies.",
         "cardType":"Epic",
         "targets":"Ground",
         "elixir": 6,
@@ -232,6 +253,7 @@ var items = [
       },
       {
         "name": "Hog Rider",
+        "desc":"Fast melee troop that targets buildings and can jump over the river. He followed the echoing call of Hog Riderrrrr all the way through the Arena doors.",
         "cardType":"Rare",
         "targets":"Buildings",
         "elixir": 4,
@@ -243,6 +265,7 @@ var items = [
       },
       {
         "name": "Minion Horde",
+        "desc":"Six fast, unarmored flying attackers. Three's a crowd, six is a horde!",
         "cardType":"Common",
         "targets":"Air & Ground",
         "elixir": 5,
@@ -254,6 +277,7 @@ var items = [
       },
       {
         "name": "Ice Wizard",
+        "desc":"This chill caster throws ice shards that slow down enemies' movement and attack speed. Despite being freezing cold, he has a handlebar mustache that's too hot for TV.",
         "cardType":"Legendary",
         "targets":"Air & Ground",
         "elixir": 3,
@@ -265,6 +289,7 @@ var items = [
       },
       {
         "name": "Royal Giant",
+        "desc":"Destroying enemy buildings with his massive cannon is his job; making a raggedy blond beard look good is his passion.",
         "cardType":"Common",
         "targets":"Buildings",
         "elixir": 6,
@@ -276,6 +301,7 @@ var items = [
       },
       {
         "name": "Guards",
+        "desc":"Three ruthless bone brothers with shields. Knock off their shields and all that's left are three ruthless bone brothers.",
         "cardType":"Epic",
         "targets":"Ground",
         "elixir": 3,
@@ -287,6 +313,7 @@ var items = [
       },
       {
         "name": "Princess",
+        "desc":"This stunning Princess shoots flaming arrows from long range. If you're feeling warm feelings towards her, it's probably because you're on fire.",
         "cardType":"Legendary",
         "targets":"Air & Ground",
         "elixir": 3,
@@ -298,6 +325,7 @@ var items = [
       },
       {
         "name": "Dark Prince",
+        "desc":"The Dark Prince deals area damage and lets his spiked club do the talking for him - because when he does talk, it sounds like he has a bucket on his head.",
         "cardType":"Epic",
         "targets":"Ground",
         "elixir": 4,
@@ -309,6 +337,7 @@ var items = [
       },
       {
         "name": "Three Musketeers",
+        "desc":"Trio of powerful, independent markswomen, fighting for justice and honor. Disrespecting them would not be just a mistake, it would be a cardinal sin!",
         "cardType":"Rare",
         "targets":"Air & Ground",
         "elixir": 9,
@@ -320,6 +349,7 @@ var items = [
       },
       {
         "name": "Lava Hound",
+        "desc":"The Lava Hound is a majestic flying beast that attacks buildings. The Lava Pups are less majestic angry babies that attack anything.",
         "cardType":"Legendary",
         "targets":"Buildings",
         "elixir": 7,
@@ -331,6 +361,7 @@ var items = [
       },
       {
         "name": "Ice Spirit",
+        "desc":"Spawns one lively little Ice Spirit to freeze a group of enemies. Stay frosty.",
         "cardType":"Common",
         "targets":"Air & Ground",
         "elixir": 1,
@@ -342,6 +373,7 @@ var items = [
       },
       {
         "name": "Fire Spirits",
+        "desc":"These three Fire Spirits are on a kamikaze mission to give you a warm hug. It'd be adorable if they weren't on fire.",
         "cardType":"Common",
         "targets":"Air & Ground",
         "elixir": 2,
@@ -353,6 +385,7 @@ var items = [
       },
       {
         "name": "Miner",
+        "desc":"The Miner can burrow his way underground and appear anywhere in the Arena. It's not magic, it's a shovel.",
         "cardType":"Legendary",
         "targets":"Ground",
         "elixir": 3,
@@ -364,6 +397,7 @@ var items = [
       },
       {
         "name": "Sparky",
+        "desc":"Sparky slowly charges up, then unloads MASSIVE area damage. Overkill isn't in her vocabulary.",
         "cardType":"Legendary",
         "targets":"Ground",
         "elixir": 6,
@@ -375,6 +409,7 @@ var items = [
       },
       {
         "name": "Bowler",
+        "desc":"This big blue dude digs the simple things in life - Dark Elixir drinks and throwing rocks. His massive boulders roll through their target, hitting everything behind for a strike!",
         "cardType":"Epic",
         "targets":"Ground",
         "elixir": 5,
@@ -386,6 +421,7 @@ var items = [
       },
       {
         "name": "Lumberjack",
+        "desc":"He chops trees by day and hunts The Log by night. His bottle of Rage spills everywhere when he's defeated.",
         "cardType":"Legendary",
         "targets":"Ground",
         "elixir": 4,
@@ -397,6 +433,7 @@ var items = [
       },
       {
         "name": "Battle Ram",
+        "desc":"Two Barbarians holding a big log charge at the nearest building, dealing significant damage if they connect; then they go to town with their swords!",
         "cardType":"Rare",
         "targets":"Buildings",
         "elixir": 4,
@@ -408,6 +445,7 @@ var items = [
       },
       {
         "name": "Inferno Dragon",
+        "desc":"Shoots a focused beam of fire that increases in damage over time. Wears a helmet because flying can be dangerous.",
         "cardType":"Legendary",
         "targets":"Air & Ground",
         "elixir": 4,
@@ -419,6 +457,7 @@ var items = [
       },
       {
         "name": "Ice Golem",
+        "desc":"He's tough, targets buildings and explodes when destroyed, slowing nearby enemies. Made entirely out of ice... or is he?! Yes.",
         "cardType":"Rare",
         "elixir": 2,
         "targets":"Buildings",
@@ -430,6 +469,7 @@ var items = [
       },
       {
         "name": "Mega Minion",
+        "desc":"Flying, armored and powerful. What could be its weakness?! Cupcakes.",
         "cardType":"Rare",
         "targets":"Air & Ground",
         "elixir": 3,
@@ -441,6 +481,7 @@ var items = [
       },
       {
         "name": "Dart Goblin",
+        "desc":"Runs fast, shoots far and chews gum. How does he blow darts with a mouthful of Double Trouble Gum? Years of didgeridoo lessons.",
         "elixir": 3,
         "cardType":"Rare",
         "targets":"Air & Ground",
@@ -452,6 +493,7 @@ var items = [
       },
       {
         "name": "Goblin Gang",
+        "desc":"Spawns five Goblins - three with knives, two with spears - at a discounted Elixir cost. It's like a Goblin Value Pack!",
         "cardType":"Common",
         "elixir": 3,
         "targets":"Air & Ground",
@@ -463,6 +505,7 @@ var items = [
       },
       {
         "name": "Electro Wizard",
+        "desc":"He lands with a POW!, stuns nearby enemies and shoots lightning with both hands! What a show off.",
         "cardType":"Legendary",
         "targets":"Air & Ground",
         "id": 26000042,
@@ -474,6 +517,7 @@ var items = [
       },
       {
         "name": "Elite Barbarians",
+        "desc":"Spawns a pair of leveled up Barbarians. They're like regular Barbarians, only harder, better, faster and stronger.",
         "cardType":"Common",
         "targets":"Ground",
         "elixir": 6,
@@ -485,6 +529,7 @@ var items = [
       },
       {
         "name": "Hunter",
+        "desc":"He deals BIG damage up close - not so much at range. What he lacks in accuracy, he makes up for with his impressively bushy eyebrows.",
         "cardType":"Epic",
         "targets":"Air & Ground",
         "elixir": 4,
@@ -496,6 +541,7 @@ var items = [
       },
       {
         "name": "Executioner",
+        "desc":"He throws his axe like a boomerang, striking all enemies on the way out AND back. It's a miracle he doesn't lose an arm.",
         "cardType":"Epic",
         "targets":"Air & Ground",
         "elixir": 5,
@@ -507,6 +553,7 @@ var items = [
       },
       {
         "name": "Bandit",
+        "desc":"The Bandit dashes to her target and delivers an extra big hit! While dashing, she can't be touched. The mask keeps her identity safe, and gives her bonus cool points!",
         "cardType":"Legendary",
         "elixir": 3,
         "targets":"Ground",
@@ -518,6 +565,7 @@ var items = [
       },
       {
         "name": "Royal Recruits",
+        "desc":"Deploys a line of recruits armed with spears, shields and wooden buckets. They dream of ponies and one day wearing metal buckets",
         "cardType":"Common",
         "targets":"Ground",
         "elixir": 7,
@@ -529,6 +577,7 @@ var items = [
       },
       {
         "name": "Night Witch",
+        "desc":"Summons Bats to do her bidding, even after death! If you get too close, she isn't afraid of pitching in with her mean-looking battle staff.",
         "cardType":"Legendary",
         "targets":"Ground",
         "elixir": 4,
@@ -540,6 +589,7 @@ var items = [
       },
       {
         "name": "Bats",
+        "desc":"Spawns a handful of tiny flying creatures. Think of them as sweet, purple... balls of DESTRUCTION!",
         "cardType":"Common",
         "targets":"Air & Ground",
         "elixir": 2,
@@ -551,6 +601,7 @@ var items = [
       },
       {
         "name": "Royal Ghost",
+        "desc":"He drifts invisibly through the Arena until he's startled by an enemy... then he attacks! Then he's invisible again! Zzzz.",
         "cardType":"Legendary",
         "elixir": 3,
         "targets":"Ground",
@@ -562,6 +613,7 @@ var items = [
       },
       {
         "name": "Ram Rider",
+        "desc":"Together they charge through the Arena; snaring enemies, knocking down towers ... and chewing grass!?",
         "cardType":"Legendary",
         "targets":"Buildings",
         "elixir": 5,
@@ -573,6 +625,7 @@ var items = [
       },
       {
         "name": "Zappies",
+        "desc":"Spawns a pack of miniature Zap machines. Who controls them...? Only the Master Builder knows.",
         "cardType":"Rare",
         "targets":"Air & Ground",
         "elixir": 4,
@@ -584,6 +637,7 @@ var items = [
       },
       {
         "name": "Rascals",
+        "desc":"Spawns a mischievous trio of Rascals! The boy takes the lead, while the girls pelt enemies from behind... with slingshots full of Double Trouble Gum!",
         "cardType":"Common",
         "targets":"Air & Ground",
         "elixir": 5,
@@ -595,6 +649,7 @@ var items = [
       },
       {
         "name": "Cannon Cart",
+        "desc":"A Cannon on wheels?! Bet they won't see that coming! Once you break its shield, it becomes a Cannon not on wheels.",
         "cardType":"Epic",
         "targets":"Ground",
         "elixir": 5,
@@ -606,6 +661,7 @@ var items = [
       },
       {
         "name": "Mega Knight",
+        "desc":"He lands with the force of 1,000 mustaches, then jumps from one foe to the next dealing huge area damage. Stand aside!",
         "cardType":"Legendary",
         "targets":"Ground",
         "elixir": 7,
@@ -617,6 +673,7 @@ var items = [
       },
       {
         "name": "Skeleton Barrel",
+        "desc":"It's a Skeleton party in the sky, until all the balloons pop... then it's a Skeleton party on the ground!",
         "cardType":"Common",
         "targets":"Buildings",
         "elixir": 3,
@@ -628,6 +685,7 @@ var items = [
       },
       {
         "name": "Flying Machine",
+        "desc":"The Master Builder has sent his first contraption to the Arena! It's a fast and fun flying machine, but fragile!",
         "cardType":"Rare",
         "targets":"Air & Ground",
         "elixir": 4,
@@ -639,6 +697,7 @@ var items = [
       },
       {
         "name": "Wall Breakers",
+        "desc":"A daring duo of dangerous dive bombers. Nothing warms a Wall Breaker's cold and undead heart like blowing up buildings.",
         "cardType":"Epic",
         "targets":"Buildings",
         "elixir": 3,
@@ -650,6 +709,7 @@ var items = [
       },
       {
         "name": "Royal Hogs",
+        "desc":"The King's personal pets are loose! They love to chomp on apples and towers alike - who let the hogs out?!",
         "cardType":"Rare",
         "targets":"Buildings",
         "elixir": 5,
@@ -661,6 +721,7 @@ var items = [
       },
       {
         "name": "Goblin Giant",
+        "desc":"This jolly green Goblin Giant stomps towards enemy buildings. He carries two Spear Goblins everywhere he goes. It's a weird but functional arrangement.",
         "cardType":"Epic",
         "targets":"Buildings",
         "elixir": 6,
@@ -672,6 +733,7 @@ var items = [
       },
       {
         "name": "Fisherman",
+        "desc":"His Ranged Attack can pull enemies towards him, and pull himself to enemy buildings. He's also mastered the ancient art of 'Fish Slapping'.",
         "cardType":"Legendary",
         "elixir": 4,
         "targets":"Ground",
@@ -683,6 +745,7 @@ var items = [
       },
       {
         "name": "Magic Archer",
+        "desc":"Not quite a Wizard, nor an Archer - he shoots a magic arrow that passes through and damages all enemies in its path. It's not a trick, it's magic!",
         "cardType":"Legendary",
         "targets":"Air & Ground",
         "elixir": 4,
@@ -694,6 +757,7 @@ var items = [
       },
       {
         "name": "Electro Dragon",
+        "desc":"Spits out bolts of electricity hitting up to three targets. Suffers from middle child syndrome to boot.",
         "cardType":"Epic",
         "targets":"Air & Ground",
         "elixir": 5,
@@ -705,6 +769,7 @@ var items = [
       },
       {
         "name": "Cannon",
+        "desc":"Defensive building. Shoots cannonballs with deadly effect, but cannot target flying troops.",
         "cardType":"Common",
         "targets":"Ground",
         "elixir": 3,
@@ -716,6 +781,7 @@ var items = [
       },
       {
         "name": "Goblin Hut",
+        "desc":"Building that spawns Spear Goblins. Don't look inside... you don't want to see how they're made.",
         "cardType":"Rare",
         "targets":"None",
         "id": 27000001,
@@ -727,6 +793,7 @@ var items = [
       },
       {
         "name": "Mortar",
+        "desc":"Defensive building with a long range. Shoots big boulders that deal area damage, but cannot hit targets that get too close!",
         "cardType":"Common",
         "targets":"Ground",
         "elixir": 4,
@@ -738,6 +805,7 @@ var items = [
       },
       {
         "name": "Inferno Tower",
+        "desc":"Defensive building, roasts targets for damage that increases over time. Burns through even the biggest and toughest enemies!",
         "cardType":"Rare",
         "targets":"Air & Ground",
         "elixir": 5,
@@ -749,6 +817,7 @@ var items = [
       },
       {
         "name": "Bomb Tower",
+        "desc":"Defensive building that houses a Bomber. Deals area damage to anything dumb enough to stand near it.",
         "cardType":"Rare",
         "targets":"Ground",
         "elixir": 4,
@@ -760,6 +829,7 @@ var items = [
       },
       {
         "name": "Barbarian Hut",
+        "desc":"Building that periodically spawns Barbarians to fight the enemy. Time to make the Barbarians!",
         "cardType":"Rare",
         "targets":"None",
         "elixir": 7,
@@ -771,6 +841,7 @@ var items = [
       },
       {
         "name": "Tesla",
+        "desc":"Defensive building. Whenever it's not zapping the enemy, the power of Electrickery is best kept grounded.",
         "cardType":"Common",
         "targets":"Air & Ground",
         "elixir": 4,
@@ -782,6 +853,7 @@ var items = [
       },
       {
         "name": "Elixir Collector",
+        "desc":"You gotta spend Elixir to make Elixir! This building makes 8 Elixir over its Lifetime. Does not appear in your starting hand.",
         "cardType":"Rare",
         "targets":"None",
         "elixir": 6,
@@ -793,6 +865,7 @@ var items = [
       },
       {
         "name": "X-Bow",
+        "desc":"Nice tower you got there. Would be a shame if this X-Bow whittled it down from this side of the Arena...",
         "cardType":"Epic",
         "targets":"Ground",
         "elixir": 6,
@@ -804,6 +877,7 @@ var items = [
       },
       {
         "name": "Tombstone",
+        "desc":"Building that periodically spawns Skeletons to fight the enemy... and when destroyed, spawns 3 more Skeletons! Creepy.",
         "cardType":"Rare",
         "targets":"None",
         "elixir": 3,
@@ -815,6 +889,7 @@ var items = [
       },
       {
         "name": "Furnace",
+        "desc":"The Furnace spawns two Fire Spirits at a time. It also makes great brick-oven pancakes.",
         "cardType":"Rare",
         "targets":"None",
         "elixir": 4,
@@ -826,6 +901,7 @@ var items = [
       },
       {
         "name": "Goblin Cage",
+        "desc":"When the Goblin Cage is destroyed, a Goblin Brawler is unleashed into the Arena! Goblin Brawler always skips leg day.",
         "cardType":"Rare",
         "targets":"None",
         "elixir": 4,
@@ -837,6 +913,7 @@ var items = [
       },
       {
         "name": "Fireball",
+        "desc":"Annnnnd... Fireball. Incinerates a small area, dealing high damage. Reduced damage to Crown Towers.",
         "cardType":"Rare",
         "targets":"None",
         "elixir": 4,
@@ -848,6 +925,7 @@ var items = [
       },
       {
         "name": "Arrows",
+        "desc":"Arrows pepper a large area, damaging all enemies hit. Reduced damage to Crown Towers.",
         "cardType":"Common",
         "elixir": 3,
         "targets":"None",
@@ -859,6 +937,7 @@ var items = [
       },
       {
         "name": "Rage",
+        "desc":"Increases troop movement and attack speed. Buildings attack faster and summon troops quicker, too. Chaaaarge!",
         "cardType":"Epic",
         "targets":"None",
         "elixir": 2,
@@ -870,6 +949,7 @@ var items = [
       },
       {
         "name": "Rocket",
+        "desc":"Deals high damage to a small area. Looks really awesome doing it. Reduced damage to Crown Towers.",
         "cardType":"Rare",
         "targets":"None",
         "elixir": 6,
@@ -881,6 +961,7 @@ var items = [
       },
       {
         "name": "Goblin Barrel",
+        "desc":"Spawns three Goblins anywhere in the Arena. It's going to be a thrilling ride, boys!",
         "cardType":"Epic",
         "targets":"None",
         "elixir": 3,
@@ -892,6 +973,7 @@ var items = [
       },
       {
         "name": "Freeze",
+        "desc":"Freezes and damages enemy troops and buildings, making them unable to move or attack. Everybody chill.",
         "cardType":"Epic",
         "targets":"None",
         "elixir": 4,
@@ -903,6 +985,7 @@ var items = [
       },
       {
         "name": "Mirror",
+        "desc":"Mirrors your last card played for +1 Elixir. Does not appear in your starting hand.",
         "cardType":"Epic",
         "targets":"None",
         "id": 28000006,
@@ -914,6 +997,7 @@ var items = [
       },
       {
         "name": "Lightning",
+        "desc":"Bolts of lightning damage and stun up to three enemy troops or buildings with the most hitpoints in the target area. Reduced damage to Crown Towers.",
         "cardType":"Epic",
         "targets":"None",
         "elixir": 6,
@@ -925,6 +1009,7 @@ var items = [
       },
       {
         "name": "Zap",
+        "desc":"Zaps enemies, briefly stunning them and dealing damage inside a small radius. Reduced damage to Crown Towers.",
         "cardType":"Common",
         "targets":"None",
         "elixir": 2,
@@ -936,6 +1021,7 @@ var items = [
       },
       {
         "name": "Poison",
+        "desc":"Covers the area in a deadly toxin, damaging enemy troops and buildings over time. Yet somehow leaves the grass green and healthy. Go figure!",
         "cardType":"Epic",
         "targets":"None",
         "elixir": 4,
@@ -947,7 +1033,9 @@ var items = [
       },
       {
         "name": "Graveyard",
+        "desc":"Surprise! It's a party. A Skeleton party, anywhere in the Arena. Yay!",
         "cardType":"Legendary",
+        "elixir": 5,
         "targets":"None",
         "id": 28000010,
         "maxLevel": 5,
@@ -957,6 +1045,7 @@ var items = [
       },
       {
         "name": "The Log",
+        "desc":"A spilt bottle of Rage turned an innocent tree trunk into The Log. Now, it seeks revenge by crushing anything in its path!",
         "cardType":"Legendary",
         "targets":"Ground",
         "elixir": 2,
@@ -968,6 +1057,7 @@ var items = [
       },
       {
         "name": "Tornado",
+        "desc":"Drags enemy troops to its center while dealing damage over time, just like a magnet. A big, swirling, Tornado-y magnet. Doesn't affect buildings.",
         "cardType":"Epic",
         "targets":"Troops",
         "elixir": 3,
@@ -979,6 +1069,7 @@ var items = [
       },
       {
         "name": "Clone",
+        "desc":"Duplicates all friendly troops in the target area. Cloned troops are fragile, but pack the same punch as the original! Doesn't affect buildings.",
         "cardType":"Epic",
         "targets":"None",
         "elixir": 1,
@@ -990,6 +1081,7 @@ var items = [
       },
       {
         "name": "Earthquake",
+        "desc":"Deals Damage per second to Troops and Crown Towers. Deals huge Building Damage! Does not affect flying units (it is an EARTHquake, after all).",
         "cardType":"Rare",
         "targets":"None",
         "elixir": 3,
@@ -1001,6 +1093,7 @@ var items = [
       },
       {
         "name": "Barbarian Barrel",
+        "desc":"It rolls over and damages anything in its path, then breaks open and out pops a Barbarian! How did he get inside?!",
         "cardType":"Epic",
         "targets":"Ground",
         "elixir": 2,
@@ -1012,6 +1105,7 @@ var items = [
       },
       {
         "name": "Heal",
+        "desc":"Heal your troops to keep them in the fight! Friendly troops are healed over time while in the target area. Doesn't affect buildings.",
         "cardType":"Rare",
         "targets":"None",
         "elixir": 1,
@@ -1023,6 +1117,7 @@ var items = [
       },
       {
         "name": "Giant Snowball",
+        "desc":"It's HUGE! Once it began rolling down Frozen Peak, there was no stopping it. Enemies hit are knocked back and slowed down.",
         "cardType":"Common",
         "targets":"None",
         "elixir": 2,

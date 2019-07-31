@@ -27,6 +27,11 @@ img {
     justify-content: center;
 }
 
+.desc {
+    width: 150px;
+    height: 148px;
+}
+
 #target {
     width: 20px;
     height: auto;
